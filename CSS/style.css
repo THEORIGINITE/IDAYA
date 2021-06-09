@@ -22,6 +22,8 @@ header {
 .nav_first {
   grid-area: "nav_first";
   display: flex;
+  padding: 1rem;
+
   align-items: center;
   position: sticky;
   z-index: 1000;
@@ -30,7 +32,6 @@ header {
   transition: 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .logo {
-  padding: 1rem;
   cursor: pointer;
 }
 .logo img {
