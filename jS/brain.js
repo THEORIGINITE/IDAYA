@@ -23,3 +23,18 @@ function displaySlides(n) {
 setInterval(() => {
     nextSlide(1);
 }, 4000);
+
+
+
+
+const header = document.getElementById('header');
+window.document.addEventListener('scroll' , ()=>{
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 30) {
+    document.querySelector(".nav_first").style.background = "white";
+
+    document.querySelector(".container_header_hro").style.maxWidth = "1000%";
+  } else{
+    document.querySelector(".nav_first").style.background = "none";
+
+  }
+})
