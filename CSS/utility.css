@@ -15,6 +15,9 @@
 .nav_third_fake {
   height: 25vh;
 }
+main {
+  text-align: center;
+}
 /* scroll bar */
 /* width */
 ::-webkit-scrollbar {
